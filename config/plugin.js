@@ -17,4 +17,23 @@ module.exports = {
     enable: true,
     package: 'egg-cors',
   },
+  // passport 鉴权
+  passport: {
+    enable: true,
+    package: 'egg-passport',
+  },
+  passportLocal: {
+    enable: true,
+    package: 'egg-passport-local',
+  },
+  //sequelize 数据库访问orm
+  sequelize : {
+    enable: true,
+    package: 'egg-sequelize',
+  },
+  //jwt
+  jwt: {
+    enable: true,
+    package: 'egg-jwt',
+  },
 };

@@ -7,4 +7,15 @@ module.exports = {
     name: { type: 'string', required: true, enum: 'test' },
   },
   // contract data
+  /* user */
+  // 注册
+  user_register: {
+    user_name: { type: 'string', required: true, enum: 'admin' },
+    user_password: { type: 'string', required: true, enum: '123456' },
+  },
+  // 登录
+  user_login: {
+    user_name: { type: 'string', required: true, enum: 'admin' },
+    user_password: { type: 'string', required: true, enum: '123456' },
+  }
 };

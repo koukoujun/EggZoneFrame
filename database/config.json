@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "admin",
+    "password": "123456",
+    "database": "EggZoneFrame",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "admin",
+    "password": "123456",
+    "database": "EggZoneFrame",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "admin",
+    "password": "123456",
+    "database": "EggZoneFrame",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

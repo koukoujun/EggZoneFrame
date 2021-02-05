@@ -6,12 +6,12 @@ class HomeService extends Service {
   // test (delete test data when you use it)
   async test() {
     const result = await this.app.mysql.query('select * from test', '');
-    const a = this.ctx.request.header.token;
-    this.ctx.logger.info('token数据', a);
+    //console.log('session的参数',this.ctx.session)
+    console.log('session的参数uuid',this.ctx.session.uuid)
     return JSON.stringify({
-      code: 1,
+      code: 0,
       message: 'success',
-      data: a,
+      data: result,
     });
   }
 

@@ -5,7 +5,7 @@ module.exports = () => {
   const config = exports = {};
 
   config.logger = {
-    dir: '../logs/test', // 打印目录重定向
+    dir: './logs/test', // 打印目录重定向
     outputJSON: true, // json格式输出
   };
 
